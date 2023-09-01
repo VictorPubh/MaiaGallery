@@ -1,0 +1,42 @@
+#gallery-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-image {
+    position: relative;
+    width: 150px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.gallery-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.remove-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #fff;
+    color: #f00;
+    border: 1px solid #f00;
+    padding: 2.5px 5px;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.remove-image:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+.add-images.button {
+    margin-top: 10px;
+}

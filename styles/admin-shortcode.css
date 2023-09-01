@@ -1,0 +1,27 @@
+.shortcode-copy {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.shortcode-copy p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.shortcode-copy .shortcode-input {
+    display: flex;
+    align-items: center;
+}
+
+.shortcode-copy input {
+    flex: 1;
+    border: none;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: text;
+}
