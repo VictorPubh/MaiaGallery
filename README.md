@@ -1,4 +1,4 @@
-# Maia Gallery Plugin
+# WordPress Gallery Shortcode
 
 Este plugin fornece uma funcionalidade de galeria em modo carosel através de Shortcodes para seu site WordPress.
 
@@ -14,7 +14,7 @@ Este plugin fornece uma funcionalidade de galeria em modo carosel através de Sh
 
 Para adicionar uma galeria em uma postagem ou página, use o seguinte shortcode:
 
-`[maia_gallery id="{id}"]`
+`[wp_shortcode_gallery id="{id}"]`
 
 > Este shortcode irá exibir uma galeria de imagens com efeitos de deslizamento usando a biblioteca Glider.js.
 

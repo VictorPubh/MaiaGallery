@@ -37,7 +37,7 @@ function custom_gallery_shortcode($atts) {
     return $output;
 }
 
-add_shortcode('maia-gallery', 'custom_gallery_shortcode');
+add_shortcode('wp_shortcode_gallery', 'custom_gallery_shortcode');
 
 function enqueue_custom_styles() {
     wp_enqueue_style('admin-shortcode', plugin_dir_url(__FILE__) . '../styles/carousel.css');

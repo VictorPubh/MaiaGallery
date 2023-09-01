@@ -1,7 +1,7 @@
 <?php
 /*
-    Plugin Name: Maia Gallery
-    Description: Um plugin de galeria via Shortcode.
+    Plugin Name: Shortcode Gallery
+    Description: Um plugin de galeria em formato carosel via Shortcode.
     Version: 1.0
     Author: InstaPress
     AuthorURI: https://instagram.com/grafica.instapress

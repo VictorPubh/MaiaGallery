@@ -44,7 +44,7 @@ function display_shortcode_copy() {
     global $post;
 
     if ($post && $post->post_type === 'gallery') {
-        $shortcode = '[maia-gallery id="' . $post->ID . '"]';
+        $shortcode = '[wp_shortcode_gallery id="' . $post->ID . '"]';
 
         echo '<div class="shortcode-copy">';
         echo '<p>Shortcode:</p>';
